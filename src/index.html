@@ -21,17 +21,7 @@
   </head>
 
   <body>
-    <!--if i want to mix depending on the screen, i can do smth like container-md border, normal screen size is container
-    but once i start shrinking below medium it will become container fluid-->
-
-    <!--
-      .container -> sets a max width at each responsive breakpoint
-      .container-fluid -> which is width 100% at all breakpoints
-      .container-(breakpoint) -> width 100% until the specified breakpoint
-
-    -->
     <img src="images/group-landing-page.webp" class="img-fluid w-100" />
-
     <div class="container-fluid">
       <div class="row position-relative">
         <div class="col-md-8">
@@ -46,7 +36,7 @@
             <p
               style="
                 color: white;
-                font-size: 46px;
+                font-size: 2.9rem;
                 padding-left: 15%;
                 padding-top: 13%;
                 line-height: 110%;
@@ -66,9 +56,9 @@
         <p
           class="about-description"
           style="
-            font-size: 38px;
+            font-size: 2.7rem;
             color: white;
-            width: 60%;
+            width: 70%;
             text-align: center;
             padding-top: 5%;
             padding-bottom: 3%;
@@ -89,45 +79,51 @@
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col-lg-4 col-md-4 col-sm-2 mb-4 mb-lg-0">
-          <img src="images/about3.png" style="height: 70%" />
+          <img src="images/about3.png" style="height: 67%" />
         </div>
         <div class="col-lg-4 col-md-4 col-sm-2 mb-4 mb-lg-0">
-          <img src="images/about2-img.png" style="height: 70%" />
+          <img src="images/about2-img.png" style="height: 67%" />
         </div>
       </div>
     </div>
-
-    <!--
 
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12 col-md-10 col-sm-4 mb-4 mb-lg-0">
-          <h1 class="intro-title">Choi Soobin</h1>
+          <h1 class="intro-1">Choi Soobin</h1>
         </div>
       </div>
     </div>
 
     <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <img src="images/soobin1.png" style="height: 53%" />
+      <div class="row align-items-center">
+        <!-- Image Column -->
+        <div class="col-md-4">
+          <img
+            src="images/soobin1.png"
+            class="img-fluid"
+            alt="Soobin Image"
+            style="padding-top: 5%"
+          />
         </div>
-        <div class="col">
-          <p style="font-size: 20px; color: white">
-            born December 5, 2000, is a South Korean singer leading the boy
-            group TXT. Renowned for his vocal prowess, stage charisma, and
-            leadership, Soobin plays a vital role in guiding TXT's endeavors on
-            and off stage
+
+        <!-- Text Column -->
+        <div class="col-md-6">
+          <p
+            style="
+              font-size: 2.3rem;
+              color: white;
+              font-family: 'Cormorant Garamond', serif;
+            "
+          >
+            Born December 5, 2000, Soobin is a South Korean singer who leads the
+            boy group TXT. He is known for his strong vocals, charismatic stage
+            presence, and leadership skills within the group. Soobin's role in
+            guiding TXT's endeavors both on and off stage has been instrumental
+            in their success since their debut in 2019.
           </p>
         </div>
       </div>
-
-      <div class="row">
-        <div class="col">
-          <img src="images/soobin2.png" style="height: 53%" />
-        </div>
-      </div>
     </div>
-    -->
   </body>
 </html>
