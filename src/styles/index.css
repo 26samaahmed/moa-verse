@@ -1,9 +1,11 @@
+/*
 [class *= "col"] {
-  padding: 1rem;
+  padding-top: 3rem;
   background-color: white;
   border: 2px solid black;
   color: white;
 }
+*/
 
 body {
   background-color: rgb(213, 165, 165);
@@ -13,6 +15,31 @@ body {
   font-family: "lindsey-signature", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: black;
+  color: white;
   font-size: 170px;
+  width: 40%;
+  padding-left: 5%;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+#description {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@media (max-width: 576px) {
+  .img-fluid  {
+      max-width: 100%;
+      height: auto;
+  }
+
+  .intro-title {
+    font-size: 120px;
+    text-align: center;
+  }
 }
