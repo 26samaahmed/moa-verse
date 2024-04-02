@@ -1,23 +1,18 @@
+[class *= "col"] {
+  padding: 1rem;
+  background-color: white;
+  border: 2px solid black;
+  color: white;
+}
+
 body {
   background-color: rgb(213, 165, 165);
 }
 
-.main-text {
-  position: relative;
-}
-
-.main-text > img, .overlay-text {
-  position: absolute;
-}
-
-.overlay-text {
-  padding-top: 10px;
-  color: rgb(149, 9, 0);
-  font-family: "Cinzel", serif;
-  padding-right: 20px;
-}
-
-.group-name {
-  font-family: lindsey-signature, sans-serif;
-  color: white;
+.intro-title {
+  font-family: "lindsey-signature", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-size: 170px;
 }
