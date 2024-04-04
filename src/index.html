@@ -11,6 +11,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+
+    <link rel="icon" href="images/V.png" />
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,27 +23,20 @@
   </head>
 
   <body>
+    <!--Landing Page [the picture is responsive]-->
     <img src="images/group-landing-page.webp" class="img-fluid w-100" />
+
+    <!--About Page-->
     <div class="container-fluid">
       <div class="row position-relative">
         <div class="col-md-8">
           <img class="w-100 shadow-1-strong rounded mb-4"
           src="images/about-img.png"/ style="padding-top: 40px;">
-
           <h1 class="intro-title position-absolute top-0">
             About <span style="padding-left: 15%">TXT</span>
           </h1>
-
           <div class="position-absolute top-0 end-0 w-50" id="description">
-            <p
-              style="
-                color: white;
-                font-size: 2.9rem;
-                padding-left: 15%;
-                padding-top: 13%;
-                line-height: 110%;
-              "
-            >
+            <p class="description-text">
               TOMORROW X TOGETHER, read as <q>Tomorrow by Together</q> is a
               bright and youthful boyband aiming to become the next breakthrough
               artist.
@@ -53,17 +48,7 @@
 
     <div class="container-fluid">
       <div class="row justify-content-center">
-        <p
-          class="about-description"
-          style="
-            font-size: 2.7rem;
-            color: white;
-            width: 70%;
-            text-align: center;
-            padding-top: 5%;
-            padding-bottom: 3%;
-          "
-        >
+        <p class="about-description">
           The band is composed of five members:
 
           <i style="font-family: 'Cormorant Garamond', serif; font-weight: 700">
@@ -76,17 +61,20 @@
       </div>
     </div>
 
+    <!--
     <div class="container-fluid">
       <div class="row justify-content-center">
-        <div class="col-lg-4 col-md-4 col-sm-2 mb-4 mb-lg-0">
+        <div class="img-fluid col-md-4 col-sm-2 mb-4 mb-lg-0" id="about-img1">
           <img src="images/about3.png" style="height: 67%" />
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-2 mb-4 mb-lg-0">
+        <div class="img-fluid col-md-4 col-sm-2 mb-4 mb-lg-0" id="about-img2">
           <img src="images/about2-img.png" style="height: 67%" />
         </div>
       </div>
     </div>
+    -->
 
+    <!--Members Page-->
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12 col-md-10 col-sm-4 mb-4 mb-lg-0">
@@ -97,8 +85,8 @@
 
     <div class="container-fluid">
       <div class="row align-items-center">
-        <!-- Image Column -->
-        <div class="col-md-4">
+        <!--Image Column-->
+        <div class="col-md-4" id="member1">
           <img
             src="images/soobin1.png"
             class="img-fluid"
@@ -107,15 +95,9 @@
           />
         </div>
 
-        <!-- Text Column -->
+        <!--Text Column-->
         <div class="col-md-6">
-          <p
-            style="
-              font-size: 2.3rem;
-              color: white;
-              font-family: 'Cormorant Garamond', serif;
-            "
-          >
+          <p class="soobin-description">
             Born December 5, 2000, Soobin is a South Korean singer who leads the
             boy group TXT. He is known for his strong vocals, charismatic stage
             presence, and leadership skills within the group. Soobin's role in
@@ -124,6 +106,150 @@
           </p>
         </div>
       </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-md-10 col-sm-4 mb-4 mb-lg-0">
+          <h1 class="intro-1">Choi Yeonjun</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="yeonjun-description">
+            Born September 13, 1999, is a South Korean singer and dancer.
+            Renowned for his versatility in singing, dancing, and rapping,
+            Yeonjun contributes significantly to TXT's distinctive sound and
+            style. His dynamic performances and magnetic stage presence make him
+            a standout member of the group.
+          </p>
+        </div>
+
+        <div class="col-md-6">
+          <img
+            src="images/yeonjun1.png"
+            class="img-fluid"
+            id="member2"
+            alt="Yeonjun Image"
+            style="padding-top: 5%"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-md-10 col-sm-4 mb-4 mb-lg-0">
+          <h1 class="intro-1">Choi Beomgyu</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <!--Image Column-->
+        <div class="col-md-4" id="member1">
+          <img
+            src="images/beomgyu1.png"
+            class="img-fluid"
+            alt="Beomgyu Image"
+            style="padding-top: 5%"
+          />
+        </div>
+
+        <!--Text Column-->
+        <div class="col-md-6">
+          <p class="beomgyu-description">
+            Born on March 13, 2001, is a South Korean singer, dancer, and
+            musician. Beomgyu is admired for his versatile talents, including
+            his strong vocal abilities and dynamic dancing skills. His charming
+            personality and stage presence have endeared him to fans,
+            contributing to TXT's widespread acclaim and success in the K-pop
+            industry.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-md-10 col-sm-4 mb-4 mb-lg-0">
+          <h1 class="intro-1">Kang Taehyun</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="taehyun-description">
+            Born on February 5, 2002, is a South Korean singer, songwriter, and
+            dancer. Known for his powerful vocals, smooth dance moves, and
+            charismatic stage presence, Taehyun has played a significant role in
+            TXT's rapid rise to stardom.
+          </p>
+        </div>
+
+        <div class="col-md-6">
+          <img
+            src="images/taehyun1.png"
+            class="img-fluid"
+            id="member2"
+            alt="Taehyun Image"
+            style="padding-top: 5%"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-md-10 col-sm-4 mb-4 mb-lg-0">
+          <h1 class="intro-1">Huening Kai</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <!--Image Column-->
+        <div class="col-md-4" id="member1">
+          <img
+            src="images/kai1.png"
+            class="img-fluid"
+            alt="Kai Image"
+            style="padding-top: 5%"
+          />
+        </div>
+
+        <!--Text Column-->
+        <div class="col-md-6">
+          <p class="kai-description">
+            Born on August 14, 2002, is a South Korean singer, songwriter, and
+            musician. His outstanding vocal range, instrumental skills, and
+            captivating stage presence make him a vital component of TXT's
+            unique sound. With his charisma and talent, Kai has garnered global
+            admiration and played a significant role in TXT's remarkable success
+            in the music industry.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="album-container">
+      <iframe
+        style="border-radius: 12px"
+        class="album-iframe"
+        src="https://open.spotify.com/embed/album/0mDwrOXZHN1lgCNeBvkBbj?utm_source=generator"
+        width="50%"
+        height="352"
+        frameborder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+      ></iframe>
     </div>
   </body>
 </html>

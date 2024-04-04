@@ -25,6 +25,7 @@ body {
 .intro-1 {
   font-size: 9rem;
   width: 100%;
+  padding-top: 10%;
 }
 
 .img-fluid {
@@ -32,8 +33,152 @@ body {
   height: auto;
 }
 
-#description, .about-description {
+.description-text {
   font-family: "Cormorant Garamond", serif;
   font-weight: 300;
-  font-style: normal;
+  color: white;
+  font-size: 2.9rem;
+  padding-left: 15%;
+  padding-top: 13%;
+  line-height: 110%;
+}
+
+.about-description {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-size: 2.7rem;
+  color: white;
+  width: 70%;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+#album-container {
+  display: flex;
+  justify-content: center;
+}
+
+.soobin-description,
+ .yeonjun-description,
+ .beomgyu-description,
+ .taehyun-description,
+ .kai-description {
+  font-size: 2.3rem;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+  padding-top: 10%;
+}
+
+@media only screen and (max-width: 600px){
+  .intro-title {
+    font-size: 4rem;
+  }
+
+  .description-text {
+    padding-top: 28%;
+    font-size: 14px;
+    line-height: 130%;
+    padding-right: 15%;
+  }
+
+  .about-description {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  #about-img1, #about-img2 {
+    padding: 0%;
+    width: 100%;
+  }
+
+  #about-img1 {
+    margin-right: -3%;
+  }
+
+  #about-img2 {
+    margin-top: -40%;
+  }
+
+  .intro-1 {
+    font-size: 5rem;
+    justify-content: center;
+    padding-top: 12%;
+  }
+
+  .soobin-description, 
+  .yeonjun-description,
+  .beomgyu-description,
+  .taehyun-description,
+  .kai-description {
+    margin-top: 5%;
+    font-size: 1.5rem;
+    line-height: 120%;
+  }
+
+
+  #member1, #member2 {
+    margin: 0;
+  }
+
+  .album-iframe {
+    width: 95%;
+  }
+
+  #album-container {
+    padding-top: 10%;
+  }
+  
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1110px){
+  .intro-title {
+    font-size: 6rem;
+  }
+
+  .description-text {
+    padding-top: 20%;
+    font-size: 24px;
+    line-height: 130%;
+    padding-right: 10%;
+  }
+
+  .about-description {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+  
+  #about-img1, #about-img2 {
+    width: 100%;
+  }
+
+  #about-img2 {
+    margin-top: -20%;
+    width: 8%;
+  }
+
+  .intro-1 {
+    font-size: 7rem;
+    justify-content: center;
+    padding-top: 12%;
+  }
+
+  .soobin-description,
+  .yeonjun-description,
+  .beomgyu-description,
+  .taehyun-description,
+  .kai-description {
+    margin-top: 5%;
+    font-size: 1.7rem;
+    margin-right: -20%;
+    line-height: 120%;
+  }
+
+  .album-iframe {
+    width: 95%;
+  }
+  
+  #album-container {
+    padding-top: 10%;
+  }
 }
