@@ -1,17 +1,8 @@
-/*
-[class *= "col"] {
-  padding-top: 3rem;
-  background-color: white;
-  border: 2px solid black;
-  color: white;
-}
-*/
-
 body {
   background-color: rgb(213, 165, 165);
 }
 
-.intro-title, .intro-1 {
+.intro-title, .intro-1, .mv-title  {
   font-family: "lindsey-signature", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -22,7 +13,18 @@ body {
   font-weight: 800;
 }
 
-.intro-1 {
+.about-description {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-size: 2.7rem;
+  color: white;
+  width: 70%;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.intro-1{
   font-size: 9rem;
   width: 100%;
   padding-top: 10%;
@@ -43,31 +45,36 @@ body {
   line-height: 110%;
 }
 
-.about-description {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 300;
-  font-size: 2.7rem;
-  color: white;
-  width: 70%;
-  text-align: center;
-  padding-top: 5%;
-  padding-bottom: 3%;
-}
-
-#album-container {
-  display: flex;
-  justify-content: center;
-}
-
 .soobin-description,
  .yeonjun-description,
  .beomgyu-description,
  .taehyun-description,
  .kai-description {
-  font-size: 2.3rem;
-  color: white;
+  font-size: 2.4rem;
+  color: black;
   font-family: 'Cormorant Garamond', serif;
-  padding-top: 10%;
+  background-color: white;
+  opacity: 0.2;
+  padding: 6%;
+  border-radius: 10px;
+}
+
+#album-container, #mv-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.mv-title {
+  font-size: 10rem;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  padding-top: 8%;
+}
+
+#image {
+  padding-top: 5%;
 }
 
 @media only screen and (max-width: 600px){
@@ -100,9 +107,10 @@ body {
     margin-top: -40%;
   }
 
-  .intro-1 {
-    font-size: 5rem;
+  .intro-1, .mv-title {
+    font-size: 4rem;
     justify-content: center;
+    padding: 0;
     padding-top: 12%;
   }
 
@@ -121,14 +129,22 @@ body {
     margin: 0;
   }
 
-  .album-iframe {
+  .album-iframe{
     width: 95%;
+  }
+
+  .mv-iframe {
+    height: 100%;
+    width: 70%;
   }
 
   #album-container {
     padding-top: 10%;
   }
-  
+
+  #image {
+    padding-top: 10%;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1110px){
@@ -157,9 +173,10 @@ body {
     width: 8%;
   }
 
-  .intro-1 {
+  .intro-1, .mv-title {
     font-size: 7rem;
     justify-content: center;
+    padding: 0;
     padding-top: 12%;
   }
 
@@ -177,7 +194,12 @@ body {
   .album-iframe {
     width: 95%;
   }
-  
+
+  .mv-iframe {
+    height: 150%;
+    width: 60%;
+  }
+
   #album-container {
     padding-top: 10%;
   }
