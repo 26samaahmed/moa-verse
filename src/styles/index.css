@@ -3,7 +3,7 @@ body {
   background: linear-gradient(0deg, rgba(81,132,157,1) 10%, rgba(213,165,165,1) 30%);
 }
 
-.intro-title, .member-name, .mv-title  {
+.intro-title, .member-name, .mv-title, .group-name  {
   font-family: "lindsey-signature", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -12,6 +12,15 @@ body {
   width: 40%;
   padding-left: 5%;
   font-weight: 800;
+}
+
+.group-name {
+  width: 50%;
+  position: absolute;
+  align-self: self-end;
+  right: 0;
+  margin-right: 15%;
+  font-size: 8rem;
 }
 
 .about-description {
@@ -75,7 +84,7 @@ body {
   padding-top: 5%;
 }
 
-.footer-text {
+#footer-text {
   color: white;
   position: absolute;
   text-align: center;
@@ -85,6 +94,10 @@ body {
 }
 
 @media only screen and (max-width: 600px){
+  .group-name {
+    font-size: 1.5rem;
+  }
+
   .intro-title {
     font-size: 4rem;
   }
@@ -151,6 +164,10 @@ body {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1110px){
+  .group-name {
+    font-size: 4.5rem;
+  }
+
   .intro-title {
     font-size: 6rem;
   }
