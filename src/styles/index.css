@@ -3,7 +3,7 @@ body {
   background: linear-gradient(0deg, rgba(81,132,157,1) 10%, rgba(213,165,165,1) 30%);
 }
 
-.intro-title, .intro-1, .mv-title  {
+.intro-title, .member-name, .mv-title  {
   font-family: "lindsey-signature", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -25,7 +25,7 @@ body {
   padding-bottom: 3%;
 }
 
-.intro-1{
+.member-name{
   font-size: 9rem;
   width: 100%;
   padding-top: 10%;
@@ -36,7 +36,7 @@ body {
   height: auto;
 }
 
-.description-text {
+.about-intro {
   font-family: "Cormorant Garamond", serif;
   font-weight: 300;
   color: white;
@@ -46,18 +46,15 @@ body {
   line-height: 110%;
 }
 
-.soobin-description,
- .yeonjun-description,
- .beomgyu-description,
- .taehyun-description,
- .kai-description {
+.member-description {
   font-size: 2.4rem;
   color: black;
   font-family: 'Cormorant Garamond', serif;
   background-color: white;
   opacity: 0.2;
-  padding: 6%;
-  border-radius: 10px;
+  text-align: center;
+  padding: 4%;
+  border-radius: 8px;
 }
 
 #album-container, #mv-container {
@@ -74,7 +71,7 @@ body {
   padding-top: 8%;
 }
 
-#image {
+#album-image {
   padding-top: 5%;
 }
 
@@ -92,7 +89,7 @@ body {
     font-size: 4rem;
   }
 
-  .description-text {
+  .about-intro {
     padding-top: 28%;
     font-size: 14px;
     line-height: 130%;
@@ -117,26 +114,17 @@ body {
     margin-top: -40%;
   }
 
-  .intro-1, .mv-title {
-    font-size: 5rem;
+  .member-name, .mv-title {
+    font-size: 4.8rem;
     justify-content: center;
     padding: 0;
     padding-top: 12%;
   }
 
-  .soobin-description, 
-  .yeonjun-description,
-  .beomgyu-description,
-  .taehyun-description,
-  .kai-description {
+  .member-description{
     margin-top: 5%;
     font-size: 1.5rem;
     line-height: 120%;
-  }
-
-
-  #member1, #member2 {
-    margin: 0;
   }
 
   .album-iframe{
@@ -150,14 +138,15 @@ body {
 
   #album-container {
     padding-top: 10%;
+    padding-bottom: 20%;
   }
 
-  #image {
+  #album-image {
     padding-top: 10%;
   }
 
-  .footer-text {
-    font-size: 1.2rem;
+  #footer-text {
+    font-size: 1rem;
   }
 }
 
@@ -166,7 +155,7 @@ body {
     font-size: 6rem;
   }
 
-  .description-text {
+  .about-intro {
     padding-top: 20%;
     font-size: 24px;
     line-height: 130%;
@@ -187,21 +176,17 @@ body {
     width: 8%;
   }
 
-  .intro-1, .mv-title {
+  .member-name, .mv-title {
     font-size: 7rem;
     justify-content: center;
     padding: 0;
     padding-top: 12%;
   }
 
-  .soobin-description,
-  .yeonjun-description,
-  .beomgyu-description,
-  .taehyun-description,
-  .kai-description {
+  .member-description {
     margin-top: 5%;
-    font-size: 1.7rem;
-    margin-right: -20%;
+    font-size: 1.8rem;
+    margin-right: 9%;
     line-height: 120%;
   }
 
@@ -210,15 +195,20 @@ body {
   }
 
   .mv-iframe {
-    height: 150%;
-    width: 60%;
+    height: 90;
+    width: 98;
   }
 
   #album-container {
     padding-top: 10%;
+    padding-bottom: 20%;
+  }
+  #mv-container {
+    padding-right: 5%;
+    padding-left: 5%;
   }
 
-  .footer-text {
-    font-size: 1.5rem;
+  #footer-text {
+    font-size: 1.2rem;
   }
 }
