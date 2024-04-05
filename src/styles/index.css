@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(213, 165, 165);
+  background: rgba(213,165,165,1);
+  background: linear-gradient(0deg, rgba(81,132,157,1) 10%, rgba(213,165,165,1) 30%);
 }
 
 .intro-title, .intro-1, .mv-title  {
@@ -77,6 +78,15 @@ body {
   padding-top: 5%;
 }
 
+.footer-text {
+  color: white;
+  position: absolute;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Cormorant Garamond', serif;
+  align-self: flex-end;
+}
+
 @media only screen and (max-width: 600px){
   .intro-title {
     font-size: 4rem;
@@ -108,7 +118,7 @@ body {
   }
 
   .intro-1, .mv-title {
-    font-size: 4rem;
+    font-size: 5rem;
     justify-content: center;
     padding: 0;
     padding-top: 12%;
@@ -144,6 +154,10 @@ body {
 
   #image {
     padding-top: 10%;
+  }
+
+  .footer-text {
+    font-size: 1.2rem;
   }
 }
 
@@ -202,5 +216,9 @@ body {
 
   #album-container {
     padding-top: 10%;
+  }
+
+  .footer-text {
+    font-size: 1.5rem;
   }
 }
