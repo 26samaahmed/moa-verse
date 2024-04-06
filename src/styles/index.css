@@ -33,7 +33,6 @@ body {
   font-weight: 800;
 }
 
-
 .group-name {
   width: 50%;
   position: absolute;
@@ -163,7 +162,7 @@ body {
   }
 
   .member-name, .mv-title, .showcase-title {
-    font-size: 4.8rem;
+    font-size: 4.6rem;
     justify-content: center;
     padding: 0;
     padding-top: 12%;
@@ -200,7 +199,7 @@ body {
 
 @media only screen and (min-width: 600px) and (max-width: 1110px){
   .group-name {
-    font-size: 4.2rem;
+    font-size: 4rem;
   }
 
   #album-promotion-container {
