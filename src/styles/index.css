@@ -3,7 +3,26 @@ body {
   background: linear-gradient(0deg, rgba(81,132,157,1) 10%, rgba(213,165,165,1) 30%);
 }
 
-.intro-title, .member-name, .mv-title, .group-name  {
+#album-promotion-container {
+  background-color: rgb(218, 0, 0, 0.2);
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  align-self: self-start;
+  left: 0;
+  margin-left: 4%;
+  margin-top: 2%;
+  align-content: center;
+}
+
+#promotion-image {
+  width: 200px;
+  height: 200px;
+  margin-left: 13%;
+  margin-top: 4%;
+}
+
+.intro-title, .member-name, .mv-title, .group-name, .showcase-title  {
   font-family: "lindsey-signature", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -13,6 +32,7 @@ body {
   padding-left: 5%;
   font-weight: 800;
 }
+
 
 .group-name {
   width: 50%;
@@ -72,12 +92,16 @@ body {
   padding-top: 5%;
 }
 
-.mv-title {
+.mv-title, .showcase-title {
   font-size: 10rem;
   width: 100%;
   text-align: center;
   padding: 0;
   padding-top: 8%;
+}
+
+.showcase-title {
+  font-size: 6rem;
 }
 
 #album-image {
@@ -96,6 +120,17 @@ body {
 @media only screen and (max-width: 600px){
   .group-name {
     font-size: 1.5rem;
+  }
+
+  #album-promotion-container {
+    height: 100px;
+    width: 100px;
+  }
+
+  #promotion-image {
+    height: 75px;
+    width: 75px;
+    margin: auto;
   }
 
   .intro-title {
@@ -127,7 +162,7 @@ body {
     margin-top: -40%;
   }
 
-  .member-name, .mv-title {
+  .member-name, .mv-title, .showcase-title {
     font-size: 4.8rem;
     justify-content: center;
     padding: 0;
@@ -165,7 +200,19 @@ body {
 
 @media only screen and (min-width: 600px) and (max-width: 1110px){
   .group-name {
-    font-size: 4.5rem;
+    font-size: 4.2rem;
+  }
+
+  #album-promotion-container {
+    height: 250px;
+    width: 250px;
+  }
+
+  #promotion-image {
+    height: 175px;
+    width: 175px;
+    margin: auto;
+    margin-left: 10%;
   }
 
   .intro-title {
@@ -193,7 +240,7 @@ body {
     width: 8%;
   }
 
-  .member-name, .mv-title {
+  .member-name, .mv-title, .showcase-title {
     font-size: 7rem;
     justify-content: center;
     padding: 0;
