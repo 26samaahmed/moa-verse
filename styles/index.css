@@ -33,11 +33,11 @@ body {
 }
 
 .group-name {
-  width: 50%;
+  width: 55%;
   position: absolute;
   align-self: self-end;
   right: 0;
-  margin-right: 15%;
+  margin-right: 12%;
   font-size: 6rem;
 }
 
