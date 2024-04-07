@@ -21,6 +21,10 @@ body {
   margin-top: 16%;
 }
 
+.tx-size {
+  font-size: 9rem;
+}
+
 .intro-title, .member-name, .mv-title, .group-name, .showcase-title  {
   font-family: "lindsey-signature", sans-serif;
   font-weight: 400;
@@ -120,6 +124,11 @@ body {
     font-size: 1.5rem;
   }
 
+  .tx-size {
+    font-size: 2.3rem;
+    width: 40%;
+  }
+
   #album-promotion-container {
     height: 100px;
     width: 100px;
@@ -198,8 +207,14 @@ body {
 
 @media only screen and (min-width: 600px) and (max-width: 1110px){
   .group-name {
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
+
+  .tx-size {
+    font-size: 5.1rem;
+    width: 40%;
+  }
+
 
   #album-promotion-container {
     height: 250px;
